@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2023_06_06_231152) do
     t.string "name"
     t.string "major"
     t.integer "age"
+    t.integer "instructor_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
